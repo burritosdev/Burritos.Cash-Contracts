@@ -5,8 +5,8 @@ Contract Address: 0x390C85eB1920266939fA32169e58427b4F2CD654
 pragma solidity ^0.8.0;
 
 
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/token/ERC20/ERC20.sol";
-import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.0.0/contracts/access/Ownable.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/contracts/access/Ownable.sol";
 
 
 contract SalsaToken is ERC20, Ownable {
